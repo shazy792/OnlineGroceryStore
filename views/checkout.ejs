@@ -1,0 +1,127 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 45%;
+  }
+  .btn {
+    width: 90px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  input {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+  span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Cart</h1>
+
+      <form method="post" action="/checkout">
+
+        <div class="row">
+<!--           <input  style="" id="example" value="Name" readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="Quantity " readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="Price" readonly> -->
+          <span class="col-md-6">Name</span>
+          <span class="col-md-3">Quantity</span>
+          <span class="col-md-3">Price</span>
+        </div>
+
+        <% var i=0 %>
+        <% orderLst.forEach(function(orderLst) { %>
+        <div class="row">
+          <!-- <label for="example">Product Name</label> -->
+          <input class="col-md-4" type="text" name="orderLst[PRODUCTNAME]" class="form-control" id="example" value="<%= orderLst.PRODUCTNAME %>" readonly>
+          <input class="col-md-3" type="text" name="orderLst[QUANTITY]" class="form-control" id="qt-<%= i%>" value="<%= orderLst.QUANTITY %>" readonly>
+          <input class="col-md-3" type="text" name="orderLst[PRICE]" class="form-control" id="pr-<%= i%>" value="<%= orderLst.PRICE %>" readonly>
+          <input type="hidden" name="orderLst[PRODUCTID]" value="<%=orderLst.PRODUCTID %>" />
+          <button id="<%= i%>" type="button" class="col-md-2 form-control btn btn-danger" onclick="upQuan(this)">Remove</button>
+
+        </div>
+                  <% i++ %>
+        <% });
+        %>
+        
+        <div class="row">
+          <span class="col-md-9">Total Price ($)</span>
+          <input class="col-md-3" type="text" name="totalPrice"  id="tp" value="<%= orderTotal %>" readonly>
+        </div>
+        <% customercards.forEach(function(customercards) { %>
+        <input type="hidden" name="customercards[CARDNUMBER]" value="<%=customercards.CARDNUMBER %>" />
+        <span>The payment will be done using creadit card number : <span><%= customercards.CARDNUMBER %></span></span>
+        <% }); %>
+
+        <div class="row">
+          <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+            <% customercards.forEach(function(customercards) { %>
+            <option value="<%= customercards.CARDNUMBER %>"><%= customercards.CARDNUMBER %></option>                 
+            <% }); %>
+          </select>
+          <input id="sa" type="hidden" name="cardnumber" value="" />
+        </div>
+
+        <div class="button-place">
+          <input id="btnPost" class="btn btn-warning" type="submit" value="Checkout">
+        </div>
+
+      </form>
+
+
+  </div>
+</main>
+
+<footer>
+  <% include ./partials/footer %>
+</footer>
+<script type="text/javascript">
+  // $(document).ready(function(){ 
+  //   $('#btnPost').click(function(){ 
+  //     $('#sa').val($('#combo :selected').val());
+  //   });
+  // });
+  $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+  });
+
+  function upQuan (elm) {
+      var btId = elm.id;
+      var qt = '#qt-'+btId;
+      var pr = '#pr-'+btId;
+      var tp = $('#tp').val();
+      alert(tp);
+      tp = tp - $(pr).val();
+      
+      $('#tp').attr('value', tp.toFixed(1));
+      $(qt).attr('value', '0');
+      $(pr).attr('value', '0.0');
+    }
+</script>
+</body>
+</html>

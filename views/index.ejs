@@ -1,0 +1,141 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./partials/head %>
+</head>
+<style type="text/css">
+    .rep {
+        float: right;
+        width: 30%;
+        height: 60px;
+    }
+    .item-card {
+        display: inline-block;
+        position: relative;
+        width: 206px;
+        height: 336px;
+        vertical-align: top;
+        background: #fff;
+        border: 1px solid #e5edec;
+        text-align: left;
+        color: #5a5a5a;
+        font-weight: 400;
+        margin: 0 -1px -1px 0;
+        cursor: pointer;
+        white-space: initial;
+        margin-bottom: 5px;
+    }
+    .item-image {
+        display: block;
+        width: 155px;
+        height: 155px;
+        margin: 10px auto;
+    }
+    .item-price {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 3px;
+        color: black;
+        font-size: 16px;
+        font-weight: 600;
+        margin-left: 15px;
+    }
+    .item-name {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 3px;
+        color: black;
+        font-size: 13px;
+        font-weight: 300;
+        margin-left: 15px;
+    }
+    .item-details {
+        width: 100%;
+        display: inline-block;
+        margin-bottom: 3px;
+        color: black;
+        font-size: 10px;
+        font-weight: 100;
+        margin-left: 15px;
+    }
+    .item-details {
+        width: 100%;
+        margin-bottom: 3px;
+        margin-left: 15px;
+    }
+    .item-add {
+        width: 100%;
+        margin-bottom: 3px;
+        margin-top: 8px;
+        margin-left: 30%;
+    }
+</style>
+<body class="container">
+
+    <header>
+        <% include ./partials/header %>
+    </header>
+
+    <form method="post" action="/">
+        <div class="row">
+          <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+            <% category.forEach(function(category) { %>
+            <option value="<%= category.CATEGORYID %>"><%= category.CATEGORYID %></option>                 
+            <% }); %>
+          </select>
+          <input id="sa" type="hidden" name="cat" value="" />
+          <input  id="btnPost" class="btn btn-success" type="submit" value="Ok">
+        </div>
+    </form>
+
+    <main>
+        <div class="jumbotron">
+            <h1>Welcome</h1>
+            <p>Add items to cart</p>
+
+
+            <ul >
+                <% products.forEach(function(products) { %>
+                    <li class="item-card">
+                        <form method="post" action="/">
+                            <img class="item-image" src="<%=products.IMAGE %>">
+                            <div class="item-price">
+                                <span>$<%=products.PRICE %></span>
+                            </div>
+                            <div class="item-name">
+                                <span><%=products.PRODUCTNAME %></span>
+                            </div>
+                            <div class="item-details">
+                                <span><%=products.DETAILS %></span>
+                            </div>
+                            <div class="item-details">
+                                <input type="hidden" name="product[PRODUCT]" value="<%=products.PRODUCTID %>" />
+                                <span><label>QTY</label></span><input type="text" name="product[QUANTITY]" placeholder=""  />
+                            </div>
+                            <div class="item-add">
+                                <input class="btn btn-success" type="submit" value="ADD">
+                            </div>
+                        </form>
+                    </li>
+                    <% }); %>
+            </ul>
+
+        </div>
+    </main>
+
+    <footer>
+        <% include ./partials/footer %>
+    </footer>
+
+    <script type="text/javascript">
+        $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+  });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 45%;
+  }
+  .btn {
+    width: 90px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  #combo{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #pc{
+    margin-bottom: 10px;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Add Product</h1>
+
+      <form method="post" action="/manager/product/add">
+
+        <h2>Product Basic Information</h2>
+
+        <div class="form-group">
+          <label for="example">Product Name</label>
+          <input type="text" name="product[PRODUCTNAME]" class="form-control" id="example" placeholder="add product name">
+        </div>
+        <div class="form-group">
+          <label for="example">Product Details</label>
+          <input type="text" name="product[DETAILS]" class="form-control" id="example" placeholder="add product details" >
+        </div>
+        <div class="form-group">
+          <label for="example">Product Image Link</label>
+          <input type="text" name="product[IMAGE]" class="form-control" id="example" placeholder="add product image link">
+        </div>
+        <div class="form-group">
+          <label for="example">Product Size</label>
+          <input type="text" name="product[PRODUCTSIZE]" class="form-control" id="example" placeholder="add product size">
+        </div>
+
+      <h2>Product Price</h2>
+      <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+          <% products.forEach(function(products) { %>
+          <option value="<%= products.ADDRESSID %>"><%= products.STATE %></option>                 
+          <% }); %>
+        </select>
+        <input id="pc" type="text" name="stateprice[PRICE]" class="form-control" id="example" placeholder="enter price">
+        <input id="sa" type="hidden" name="stateprice[ADDRESSID]" value="<%=products.ADDRESSID %>" />
+
+        <div class="button-place">
+          <input id="btnPost" class="btn btn-success" type="submit" value="Add Product">
+        </div>
+
+
+      </form>
+
+  </div>
+</main>
+
+<footer>
+  <% include ./partials/footer %>
+</footer>
+<script type="text/javascript">
+  $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+  });
+</script> 
+</body>
+</html>

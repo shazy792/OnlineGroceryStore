@@ -1,0 +1,1156 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"addressid"
+			],
+			[
+				"add",
+				"addressid"
+			],
+			[
+				"PRODUCT",
+				"PRODUCTID"
+			],
+			[
+				"pro",
+				"productprice"
+			],
+			[
+				"orderde",
+				"orderdetails"
+			],
+			[
+				"Pro",
+				"PRODUCT"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"is",
+				"isManager"
+			],
+			[
+				"user",
+				"usertype"
+			],
+			[
+				"fin",
+				"finished"
+			],
+			[
+				"or",
+				"orderdetail"
+			],
+			[
+				"order",
+				"orderdetails"
+			],
+			[
+				"render",
+				"renderPage"
+			],
+			[
+				"cus",
+				"customerid"
+			],
+			[
+				"to",
+				"toDateString〔function〕"
+			],
+			[
+				"chec",
+				"checkout"
+			],
+			[
+				"check",
+				"checkout.ejs"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"ware",
+				"warehouseid"
+			],
+			[
+				"warehouse",
+				"warehouseid"
+			],
+			[
+				"se",
+				"selectedWarehouse"
+			],
+			[
+				"lo",
+				"loggedin"
+			],
+			[
+				"sate",
+				"stateprice"
+			],
+			[
+				"req",
+				"req.body.login.email"
+			],
+			[
+				"PR",
+				"PRODUCTID"
+			],
+			[
+				"DE",
+				"DETAILS"
+			],
+			[
+				"PRODU",
+				"PRODUCTNAME"
+			],
+			[
+				"PRO",
+				"PRODUCTNAME"
+			],
+			[
+				"sele",
+				"selectedWarehouse"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"pr",
+				"productid"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"E",
+				"EMAIL"
+			],
+			[
+				"customer",
+				"customerid"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"EX",
+				"EXPIRYYEAR"
+			],
+			[
+				"b",
+				"body"
+			],
+			[
+				"ADD",
+				"ADDRESSID"
+			],
+			[
+				"res",
+				"result〔argument〕"
+			],
+			[
+				"tmp",
+				"tmp_cadd"
+			],
+			[
+				"address",
+				"addressid"
+			],
+			[
+				"card",
+				"cardnumber"
+			],
+			[
+				"qparams",
+				"qparamsTH"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"cc",
+				"ccaddress"
+			],
+			[
+				"qpa",
+				"qparams"
+			],
+			[
+				"wareh",
+				"warehouses"
+			],
+			[
+				"orderT",
+				"orderTtl"
+			],
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"addre",
+				"addressid"
+			],
+			[
+				"query",
+				"queryT"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"connec",
+				"connection"
+			],
+			[
+				"c",
+				"connection"
+			],
+			[
+				"N",
+				"NREG"
+			],
+			[
+				"data",
+				"datafilename"
+			],
+			[
+				"brace",
+				"bracelets"
+			],
+			[
+				"js",
+				"jsonwebtoken"
+			],
+			[
+				"Au",
+				"Authentication"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"te",
+				"text"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"p",
+				"products"
+			],
+			[
+				"fo",
+				"fontSize〔variable〕"
+			],
+			[
+				"onk",
+				"onkeypress〔function〕"
+			],
+			[
+				"create",
+				"createElement〔function〕"
+			],
+			[
+				"on",
+				"onclick〔function〕"
+			],
+			[
+				"ab",
+				"abs_opcode"
+			],
+			[
+				"ins",
+				"instr_sign"
+			],
+			[
+				"inst",
+				"instr_loc"
+			],
+			[
+				"nb",
+				"nbr_cycles"
+			],
+			[
+				"INS",
+				"INSANE_NBR_CYCLES"
+			],
+			[
+				"dump",
+				"dump_memory"
+			],
+			[
+				"dum",
+				"dump_control_unit"
+			],
+			[
+				"execute",
+				"execute_command"
+			],
+			[
+				"many",
+				"many_instruction_cycles"
+			],
+			[
+				"exec",
+				"execute_command"
+			],
+			[
+				"va",
+				"value_read"
+			],
+			[
+				"read",
+				"read_success"
+			],
+			[
+				"print",
+				"printf\tprintf …"
+			],
+			[
+				"o",
+				"onclick〔function〕"
+			],
+			[
+				"privacy",
+				"privacypolicy.html"
+			],
+			[
+				"ques",
+				"question"
+			],
+			[
+				"shazy",
+				"shazy792"
+			],
+			[
+				"shazy792",
+				"shazy792@gmail.com"
+			],
+			[
+				"shaz",
+				"shazy792@gmail.com"
+			],
+			[
+				"console",
+				"console.log(\"Conetxt"
+			],
+			[
+				"mess",
+				"messageAwards"
+			],
+			[
+				"messa",
+				"messageAwards〔variable〕"
+			],
+			[
+				"pa",
+				"payload"
+			],
+			[
+				"fb",
+				"fbMessage"
+			],
+			[
+				"post",
+				"postback"
+			],
+			[
+				"const",
+				"const〔keyword〕"
+			],
+			[
+				"que",
+				"question"
+			],
+			[
+				"context",
+				"context._fbid_"
+			],
+			[
+				"me",
+				"messageSk"
+			],
+			[
+				"question",
+				"questionHandler"
+			],
+			[
+				"get",
+				"getFirstMessagingEntry"
+			],
+			[
+				"send",
+				"sender"
+			],
+			[
+				"sen",
+				"sendCardMessage"
+			],
+			[
+				"session",
+				"sessionId"
+			],
+			[
+				"messageda",
+				"messageDatabase"
+			],
+			[
+				"messageDa",
+				"messageDatabase"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "config/dbconnection.js",
+			"settings":
+			{
+				"buffer_size": 152,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 1127,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/routes.js",
+			"settings":
+			{
+				"buffer_size": 29499,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 3955,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/manager.ejs",
+			"settings":
+			{
+				"buffer_size": 2031,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/checkout.ejs",
+			"settings":
+			{
+				"buffer_size": 3879,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/signup.ejs",
+			"settings":
+			{
+				"buffer_size": 5179,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/user.ejs",
+			"settings":
+			{
+				"buffer_size": 5952,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Add All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"vie",
+				"View: Toggle Menu"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 51.0,
+		"history":
+		[
+			"exit",
+			"]-",
+			"h",
+			"-help",
+			"--help",
+			"help",
+			"node index.js",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/config",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/routes",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/partials"
+	],
+	"file_history":
+	[
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/productupdate.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/addprod.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/manager.ejs",
+		"/C/Users/shazy/Downloads/232_latex_example/LaTeX Grading Rubric.tex",
+		"/C/Users/shazy/Downloads/Final-chair-report-Word.tex",
+		"/C/Users/shazy/Downloads/232_latex_example/ieeeconf.cls",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/index.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/checkout.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/tnsnames.ora",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/warehouse.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/deprecated/warehouse.ejs",
+		"/C/Users/shazy/Downloads/app (2).js",
+		"/C/Users/shazy/Downloads/app (1).js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/partials/header.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/deprecated/header.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/package.json",
+		"/C/Users/shazy/Downloads/database/database/tb_productPrice.sql",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/partials/head.ejs",
+		"/C/Users/shazy/Downloads/database/database/view_productInfo.sql",
+		"/C/Users/shazy/Downloads/update.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/user.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/signup.ejs",
+		"/C/Users/shazy/Downloads/database/database/tb_creditCard.sql",
+		"/C/Users/shazy/Downloads/database/database/tb_address.sql",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/index.html",
+		"/C/Users/shazy/Downloads/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/singup.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/login.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/deprecated/index.html",
+		"/C/Users/shazy/Downloads/database/database/tb_login.sql",
+		"/C/Users/shazy/Downloads/database/database/view_storageSpace.sql",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/views/about.ejs",
+		"/C/Users/shazy/Downloads/test/test/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/config/db-config.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/models/dbconnection.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/app.js",
+		"/C/Users/shazy/OneDrive/Documents/CS350/FinalProjecttt.c",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/FP1_tests/FP1_tests/orig_zero.hex",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/FP1_tests/FP1_tests/orig_fffe.hex",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/FP1_tests/FP1_tests/orig_7ffe.hex",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/FP1_tests/FP1_tests/long_test.hex",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/Phase2_Mohsin_Haider_L01.c",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Haris Final Proj/FP1_tests/Haris_Phase1.c",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/home.html",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/procfile",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/package.json",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/dist/js/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/old.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/server.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/models/model.js",
+		"/C/Users/shazy/Downloads/export_2016-11-05T06-18-31.764Z/yos.json",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/dist/index.html",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks2016/README.md",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks/package.json",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/archhacks/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/app.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/groceryStore/routes/routes.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/header.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/home.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/hello.ejs",
+		"/C/Users/shazy/Downloads/Lec12/Lec12/multiply_subr.asm",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Lab 8/HarisUddin_Lab8.asm",
+		"/C/Users/shazy/Downloads/Lec12/Lec12/read_subr.asm",
+		"/C/Users/shazy/Downloads/Lec11 (1)/Lec11/Lec11_pgms/multiply.asm",
+		"/C/Users/shazy/Downloads/CS 350/CS 350/Lab7.c",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/routes/routes.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/test.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/test.html",
+		"/C/Users/shazy/Desktop/Lecture Files/test.js",
+		"/C/Users/shazy/Desktop/Lecture Files/test.html",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/signUp.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/login.ejs",
+		"/C/Users/shazy/Downloads/Lab5/Lab5/Lab5_ShahzilSheikh_3.c",
+		"/C/Users/shazy/Downloads/Lab6/Lab6/Lab6_ShahzilSheikh_3.c",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/tbd",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/index.ejs",
+		"/C/Users/shazy/Downloads/Lab6/Lab6/Lab6_skel.c",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/config/passport.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/public/js/signUp.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/controllers/index.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/signUp.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/singup.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/default.css",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/routes/index.js",
+		"/C/Users/shazy/Downloads/hello.ejs",
+		"/C/Users/shazy/Downloads/header.ejs",
+		"/C/Users/shazy/Downloads/Lab6_HarisUddin.c",
+		"/C/Users/shazy/Downloads/Lab5/Lab5/Lab5_skel.c",
+		"/C/Users/shazy/Downloads/TestCode/signUp.html",
+		"/C/Users/shazy/Downloads/favicon.ico",
+		"/C/Users/shazy/Downloads/82069cf3213a69d95a091dcc840eec61.ico/manifest.json",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/profile.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/views/signup.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/helpers/encryption.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/package.json",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/config/passport_old.js",
+		"/C/Users/shazy/Downloads/Lab5.zip",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/public/initial.txt",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/routes/routes.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/routes/index.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/views/signup.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/views/login.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/views/index.ejs",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/server/models/db-config.js",
+		"/C/Users/shazy/Desktop/DevelopmentProjects/shs/webServer/public/yo.html",
+		"/C/Users/shazy/OneDrive/Documents/cs350.c",
+		"/C/Users/shazy/OneDrive/Documents/CS350/Lab2_skel.c",
+		"/C/Users/shazy/Downloads/Lab3_Bits/Lab3_Bits/Lab3_argv.c",
+		"/C/Users/shazy/Desktop/Nodejs/async/hello-async.js",
+		"/C/Users/shazy/Downloads/Lab3_Bits/Lab3_Bits/Lab3_skel.c",
+		"/C/Users/shazy/DevelopmentProjects/HelloWorld/helloworld.js",
+		"/C/Users/shazy/Documents/ResumeBot/Wit-Facebook/index.js",
+		"/C/Users/shazy/Documents/ResumeBot/Wit-Facebook/bot.js",
+		"/C/Users/shazy/Documents/ResumeBot/Wit-Facebook/data.js",
+		"/C/Users/shazy/Documents/ResumeBot/Wit-Facebook/facebook.js",
+		"/C/Users/shazy/Documents/ResumeBot/Wit-Facebook/const.js",
+		"/C/Users/shazy/DevelopmentProjects/webserver/index.html",
+		"/C/Users/shazy/DevelopmentProjects/webserver/index.js",
+		"/C/Users/shazy/OneDrive/Documents/CS350/CS350Lab0/Lab0/Lab0.c",
+		"/C/Users/shazy/DevelopmentProjects/webserver/ind.js",
+		"/C/Users/shazy/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/shazy/AppData/Roaming/cabal/config",
+		"/C/Users/shazy/Documents/HelloWold/hello.py",
+		"/C/Users/shazy/AppData/Roaming/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/C/Users/shazy/Documents/Wit-Facebook/dex.js",
+		"/C/Users/shazy/Desktop/templates/main.html",
+		"/C/Users/shazy/Documents/Wit-Facebook/data.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"products",
+			"FROM CUSTOMER",
+			"SELECT * FROM CUSTOMER",
+			">>>",
+			"/manager/product",
+			"prodprice",
+			">>>",
+			"sessionstore",
+			"checkout",
+			"1",
+			"5",
+			"req.session.order.push",
+			"checkout",
+			"req.session.order",
+			"checkout",
+			"userid",
+			"checkout",
+			"login",
+			"console.log",
+			">",
+			">>",
+			">>>",
+			"PRODUCTID",
+			"max",
+			"req.session.addressid",
+			"productsAll",
+			"products",
+			"/warehouse",
+			"selectedProduct",
+			"prodprice",
+			"CUSTOMERID",
+			"address",
+			"CUSTOMERID",
+			"</form>",
+			"form",
+			"CUSTMOMERID",
+			"address",
+			"ccaddress",
+			"sing",
+			"mem",
+			"mnemonic",
+			"d",
+			"Exit_failure",
+			"btype",
+			"app.get",
+			"send",
+			"String",
+			"rw",
+			"email",
+			"user_name",
+			"last_name",
+			"mid_name",
+			"first_name",
+			"tmp_opcode",
+			"LD",
+			"MEM",
+			"instr",
+			"tc",
+			"password",
+			"LocalStrategy",
+			"email",
+			");\n",
+			"msg = dat.messagePLangs;\n\t\t\tbreak;\n\t\t\tcase 'sx2':\n\t\t\t\tmsg = dat.messageHBoards;\n\t\t\tbreak;\n\t\t\tcase 'sx3':\n\t\t\t\tmsg = dat.messageDatabase;",
+			"msg",
+			"cb",
+			"parse",
+			"postback",
+			"cb",
+			"name",
+			"Name",
+			"name",
+			"just_do_it",
+			"token"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "config/dbconnection.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								75
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "routes/routes.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 29499,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1294,
+								1294
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2092,
+								2092
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1091.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/manager.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								545,
+								545
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SQL/SQL.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 352.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/checkout.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3402,
+								3402
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1440.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/signup.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5179,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4943,
+								4943
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 748.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "views/user.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3586,
+								3586
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 812.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"pinned_build_system": "",
+	"project": "grocerystore.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\shazy\\Documents\\ResumeBot\\Wit-Facebook\\index.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

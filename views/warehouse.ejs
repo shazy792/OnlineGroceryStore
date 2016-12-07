@@ -1,0 +1,163 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 35%;
+  }
+  .button-place-1 {
+    display: block;
+    margin-left: 45%;
+  }  
+  .btn {
+    width: 150px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  input {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+  span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #combo{
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #pc{
+    width: 60%
+  }
+  .pos{
+    padding-left: 15%;
+
+  }
+  .pos2 {
+    padding-left: 25%;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Stock Details</h1>
+
+      <h2>Existing Products</h2>
+      <form method="post" action="/warehouse">
+
+        <div class="row">
+          <span class="col-md-6">Name</span>
+          <span class="col-md-3">Quantity</span>
+          <span class="col-md-3">Space Occupied</span>
+        </div>
+
+        <% products.forEach(function(products) { %>
+        <div class="row">
+          <input class="col-md-6" type="text" name="products[PRODUCTNAME]" class="form-control" id="example" value="<%= products.PRODUCTNAME %>" readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="<%= products.QUANTITY %>" readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="<%= products.SPACE %>" readonly>
+          <input type="hidden" name="products[PRODUCTID]" value="<%=products.PRODUCTID %>" />
+
+        </div>
+        <% }); %>
+
+        <div class="button-place">
+          <input id="showUpdateBlock" class="btn btn-primary" type="button" value="Update Stock">
+          <input id="showAddBlock" class="btn btn-success" type="button" value="Add Product">
+        </div>
+      </form>
+
+      <div id="updateBlock" style="display: none">
+        <h2>Stock Update</h2>
+        <form method="post" action="/manager/warehouse/quantity">
+          <div class="row">
+
+            <div class="col-md-6"> 
+              <div class="pos">
+                <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+                  <% products.forEach(function(products) { %>
+                  <option value="<%= products.PRODUCTID %>"><%= products.PRODUCTNAME %></option>                 
+                  <% }); %>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="pos2">
+                <input id="pc" class="form-control" type="text" name="products[QUANTITY]" id="example" placeholder="Enter the new Quantity">
+                <input id="sa" type="hidden" name="products[PRODUCTID]" value="" />
+              </div>
+            </div>
+          </div>
+          <div class="button-place-1">
+            <input  id="btnPost" class="btn btn-warning" type="submit" value="Update">
+          </div>
+        </form>
+      </div>
+
+    <div id="AddBlock" style="display: none">
+        <h2>Add Product</h2>
+        <form method="post" action="/manager/warehouse/product">
+          <div class="row">
+
+            <div class="col-md-6"> 
+              <div class="pos">
+                <select id="combo2" class="btn btn-default btn-lg dropdown-toggle">
+                  <% productsAll.forEach(function(productsAll) { %>
+                  <option value="<%= productsAll.PRODUCTID %>"><%= productsAll.PRODUCTNAME %></option>                 
+                  <% }); %>
+                </select>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="pos2">
+                <input id="pc" class="form-control" type="text" name="products[QUANTITY]" id="example" placeholder="Enter the new Quantity">
+                <input id="sa2" type="hidden" name="products[PRODUCTID]" value="" />
+              </div>
+            </div>
+          </div>
+          <div class="button-place-1">
+            <input  id="btnPost2" class="btn btn-warning" type="submit" value="Add">
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <% include ./partials/footer %>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function(){ 
+      $('#btnPost').click(function(){ 
+        $('#sa').val($('#combo :selected').val());
+      });
+      $('#btnPost2').click(function(){ 
+        $('#sa2').val($('#combo2 :selected').val());
+      });
+      $('#showUpdateBlock').click(function(){ 
+        $('#updateBlock').css("display","block");
+      });
+      $('#showAddBlock').click(function(){ 
+        $('#AddBlock').css("display","block");
+      });
+    });
+  </script> 
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 45%;
+  }
+  .btn {
+    width: 90px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  #combo, #combo2{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Update Product</h1>
+
+      <form method="post" action="/manager">
+      <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+          <% products.forEach(function(products) { %>
+          <option value="<%= products.PRODUCTID %>"><%= products.PRODUCTNAME%></option>                 
+          <% }); %>
+        </select>
+        <input id="sa" type="hidden" name="selectedProduct" value="" />
+        <input  id="btnPost" class="btn btn-success" type="submit" value="Update">
+      </form>
+
+      <h1>Update Warehouse</h1>
+
+      <form method="post" action="/manager">
+      <select id="combo2" class="btn btn-default btn-lg dropdown-toggle">
+          <% warehouse.forEach(function(warehouse) { %>
+          <option value="<%= warehouse.WAREHOUSEID %>"><%= warehouse.WAREHOUSEID %></option>                 
+          <% }); %>
+        </select>
+        <input id="sa2" type="hidden" name="selectedWarehouse" value="" />
+        <input  id="btnPost2" class="btn btn-success" type="submit" value="Update">
+      </form>
+
+      <h1>Add a Product</h1>
+      <a class="btn btn-success" href="/manager/product/add">Add Product</a>
+
+  </div>
+</main>
+
+<footer>
+  <% include ./partials/footer %>
+</footer>
+<script type="text/javascript">
+  $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+    $('#btnPost2').click(function(){ 
+      $('#sa2').val($('#combo2 :selected').val());
+    });    
+  });
+</script>
+</body>
+</html>

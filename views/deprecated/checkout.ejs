@@ -1,0 +1,93 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 45%;
+  }
+  .btn {
+    width: 90px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  input {
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+  }
+  span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Cart</h1>
+
+      <form method="post" action="/checkout">
+
+        <div class="row">
+<!--           <input  style="" id="example" value="Name" readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="Quantity " readonly>
+          <input class="col-md-3" type="text"  class="form-control" id="example" value="Price" readonly> -->
+          <span class="col-md-6">Name</span>
+          <span class="col-md-3">Quantity</span>
+          <span class="col-md-3">Price</span>
+        </div>
+
+        <% orderLst.forEach(function(orderLst) { %>
+        <div class="row">
+          <!-- <label for="example">Product Name</label> -->
+          <input class="col-md-6" type="text" name="orderLst[PRODUCTID]" class="form-control" id="example" value="<%= orderLst.PRODUCTID %>" readonly>
+          <input class="col-md-3" type="text" name="orderLst[QUANTITY]" class="form-control" id="example" value="<%= orderLst.QUANTITY %>" readonly>
+          <input class="col-md-3" type="text" name="orderLst[PRICE]" class="form-control" id="example" value="$<%= orderLst.PRICE %>" readonly>
+
+        </div>
+        <% }); %>
+        <div class="row">
+          <span class="col-md-9">Total Price ($)</span>
+          <input class="col-md-3" type="text" name="totalPrice"  id="example" value="<%= orderTotal %>" readonly>
+        </div>
+        <% customercards.forEach(function(customercards) { %>
+        <input type="hidden" name="customercards[CARDNUMBER]" value="<%=customercards.CARDNUMBER %>" />
+        <span>The payment will be done using creadit card number : <span><%= customercards.CARDNUMBER %></span></span>
+        <% }); %>
+        <div class="button-place">
+          <input class="btn btn-warning" type="submit" value="Checkout">
+        </div>
+
+      </form>
+
+
+  </div>
+</main>
+
+<footer>
+  <% include ./partials/footer %>
+</footer>
+<!-- <script type="text/javascript">
+  $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+  });
+</script> -->
+</body>
+</html>

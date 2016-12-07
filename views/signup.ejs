@@ -1,0 +1,123 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ./partials/head %>
+</head>
+<style type="text/css">
+.button-place {
+        display: block;
+        margin-left: 45%;
+}
+.btn {
+    width: 90px;
+}
+</style>
+<body class="container">
+
+    <header>
+        <% include ./partials/header %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>SignUp</h1>
+
+            <form method="post" action="/signup">
+
+            <h2>Basic Information</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">First Name</label>
+                <input type="text" name="customer[FIRSTNAME]" class="form-control" id="exampleInputEmail1" placeholder="First Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Last Name</label>
+                <input type="text" name="customer[LASTNAME]" class="form-control" id="exampleInputPassword1" placeholder="Last Name">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" name="customer[EMAIL]" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" name="customer[PASSWORD]" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+
+            <h2>Address</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Street</label>
+                <input type="text" name="address[STREET]" class="form-control" id="exampleInputEmail1" placeholder="street info">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">City</label>
+                <input type="text" name="address[CITY]" class="form-control" id="exampleInputEmail1" placeholder="city name">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">State</label>
+                <input type="text" name="address[STATE]" class="form-control" id="exampleInputEmail1" placeholder="state name">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Zipcode</label>
+                <input type="text" name="address[ZIPCODE]" class="form-control" id="exampleInputEmail1" placeholder="zipcode">
+            </div>
+
+            <h2>Credit Card information</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Card Number</label>
+                <input type="text" name="creditcard[CARDNUMBER]" class="form-control" id="exampleInputEmail1" placeholder="card number">
+            </div> 
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">CVC</label>
+                <input type="text" name="creditcard[CVC]" class="form-control" id="exampleInputEmail1" placeholder="cvc number">
+            </div> 
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Name Card</label>
+                <input type="text" name="creditcard[NAMEONCARD]" class="form-control" id="exampleInputEmail1" placeholder="name on card">
+            </div> 
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Expiry Month</label>
+                <input type="text" name="creditcard[EXPIRYMONTH]" class="form-control" id="exampleInputEmail1" placeholder="expiry month">
+            </div> 
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Expiry Year</label>
+                <input type="text" name="creditcard[EXPIRYYEAR]" class="form-control" id="exampleInputEmail1" placeholder="expiry year">
+            </div> 
+
+            <h2>Payment Address</h2>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Street</label>
+                <input type="text" name="ccaddress[STREET]" class="form-control" id="exampleInputEmail1" placeholder="street info">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">City</label>
+                <input type="text" name="ccaddress[CITY]" class="form-control" id="exampleInputEmail1" placeholder="city name">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">State</label>
+                <input type="text" name="ccaddress[STATE]" class="form-control" id="exampleInputEmail1" placeholder="state name">
+            </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Zipcode</label>
+                <input type="text" name="ccaddress[ZIPCODE]" class="form-control" id="exampleInputEmail1" placeholder="zipcode">
+            </div>
+
+
+            <div class="button-place">
+           <input class="btn btn-success" type="submit" value="SignUp">
+           </div>
+      </form>
+
+  </div>
+</main>
+
+<footer>
+    <% include ./partials/footer %>
+</footer>
+
+</body>
+</html>

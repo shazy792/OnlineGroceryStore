@@ -1,0 +1,98 @@
+<!-- views/pages/index.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/head %>
+</head>
+<style type="text/css">
+  .button-place {
+    display: block;
+    margin-left: 45%;
+  }
+  .btn {
+    width: 90px;
+  }
+  .address-list {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+  }
+  #combo{
+    width: 20%;
+    margin-bottom: 10px;
+  }
+  #pc{
+    margin-bottom: 10px;
+  }
+</style>
+<body class="container">
+
+  <header>
+    <% include ./partials/header %>
+  </header>
+
+  <main>
+    <div class="jumbotron">
+      <h1>Update Product</h1>
+
+      <form method="post" action="/manager/product">
+
+        <h2>Product Basic Information</h2>
+
+        <% products.forEach(function(products) { %>
+        <div class="form-group">
+          <label for="example">Product Name</label>
+          <input type="text" name="product[PRODUCTNAME]" class="form-control" id="example" value="<%= products.PRODUCTNAME %>">
+        </div>
+        <div class="form-group">
+          <label for="example">Product Details</label>
+          <input type="text" name="product[DETAILS]" class="form-control" id="example" value="<%= products.DETAILS %>" >
+        </div>
+        <div class="form-group">
+          <label for="example">Product Image Link</label>
+          <input type="text" name="product[IMAGE]" class="form-control" id="example" value="<%=products.IMAGE %>">
+        </div>
+        <div class="form-group">
+          <label for="example">Product Size</label>
+          <input type="text" name="product[PRODUCTSIZE]" class="form-control" id="example" value="<%=products.PRODUCTSIZE %>">
+        </div>
+        <input type="hidden" name="product[PRODUCTID]" value="<%=products.PRODUCTID %>" />
+        <div class="button-place">
+          <input class="btn btn-success" type="submit" value="Update">
+        </div>
+        <% }); %>
+
+      </form>
+
+      <h2>Price By State</h2>
+      <form method="post" action="/manager/product/price">
+      <select id="combo" class="btn btn-default btn-lg dropdown-toggle">
+          <% products.forEach(function(products) { %>
+          <option value="<%= products.STATE %>"><%= products.STATE %> - $<%= products.PRICE %></option>
+          <input id="pr" type="hidden" name="stateprice[PRODUCTID]" value="<%=products.PRODUCTID %>" />                 
+          <% }); %>
+        </select>
+        <input id="pc" type="text" name="stateprice[PRICE]" class="form-control" id="example" placeholder="enter the new price">
+        <input id="sa" type="hidden" name="stateprice[STATE]" value="<%=products.STATE %>" />
+        <input  id="btnPost" class="btn btn-success" type="submit" value="Update">
+      </form>
+      <!--  -->
+
+
+
+  </div>
+</main>
+
+<footer>
+  <% include ./partials/footer %>
+</footer>
+<script type="text/javascript">
+  $(document).ready(function(){ 
+    $('#btnPost').click(function(){ 
+      $('#sa').val($('#combo :selected').val());
+    });
+  });
+</script>
+</body>
+</html>
